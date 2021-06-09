@@ -8,11 +8,9 @@ class CustomBtn extends StatelessWidget {
     Key? key,
     required this.label,
     required this.onPressed,
-    this.icon,
   }) : super(key: key);
 
   final String label;
-  final Widget? icon;
   final Function onPressed;
   @override
   Widget build(BuildContext context) {
