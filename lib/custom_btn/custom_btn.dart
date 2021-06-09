@@ -5,21 +5,25 @@ class CustomBtn extends StatelessWidget {
     Key? key,
     required this.label,
     required this.onPressed,
+    this.color = Colors.blue,
+    this.labelStyle = const TextStyle(fontSize: 16),
   }) : super(key: key);
 
   final String label;
   final Function onPressed;
+  final Color color;
+  final TextStyle labelStyle;
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
       padding: const EdgeInsets.all(10),
-      color: Colors.blue,
+      color: color,
       splashColor: Colors.black12,
       elevation: 10,
       onPressed: () => onPressed(),
       child: Text(
         label,
-        style: const TextStyle(fontSize: 16),
+        style: labelStyle,
       ),
     );
   }

@@ -17,8 +17,9 @@ class HomeView extends GetView<HomeController> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CustomBtn(
-              onPressed: () {},
-              // icon: Icon(Icons.accessibility_outlined),
+              onPressed: () {
+                print('Hello world!');
+              },
               label: 'TESTING',
             ),
           ],
