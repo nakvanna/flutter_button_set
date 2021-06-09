@@ -18,7 +18,6 @@ class CustomBtn extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
       padding: const EdgeInsets.all(10),
-      shape: ,
       color: Colors.blue,
       splashColor: Colors.black12,
       elevation: 10,
