@@ -1,6 +1,6 @@
 # Create test flutter_button_set
 
-A new Flutter package project.
+A first Flutter package project.
 
 ## Getting Started
 
